@@ -327,7 +327,10 @@ function Home() {
           </button>
         </div>
 
-        <ProjectVisual kind="guitar" />
+        <ProjectVisual
+          image="/images/guitarpic.jpeg"
+          alt="Finished electric guitar build"
+        />
       </section>
     </main>
   )
