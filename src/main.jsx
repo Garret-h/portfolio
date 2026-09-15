@@ -18,7 +18,7 @@ const projects = [
     metricLabel: 'working instrument',
     visual: 'guitar',
     image: '/images/Guitar_CAD.jpeg',
-    video: 'https://www.youtube.com/watch?v=Z2sowgAaFy8',
+    video: '/Website_guitar_master.mp3',
     videoLabel: 'Listen to the final product',
     details: [
       {
@@ -151,7 +151,7 @@ function Header({ page }) {
         onClick={() => navigate('home')}
         aria-label="Home"
       >
-        GH<span>.</span>
+        Garret Hosey
       </button>
 
       <nav className={open ? 'open' : ''}>
@@ -229,11 +229,11 @@ function Home() {
 
         <div className="hero-grid">
           <h1>
-            I make ideas
+            Plan
             <br />
-            <em>tangible</em> through
+            Design
             <br />
-            <span>design.</span>
+            <span>Build</span>
           </h1>
 
           <div className="hero-side">
@@ -272,8 +272,7 @@ function Home() {
         <p className="section-label">01 / AT A GLANCE</p>
 
         <h2>
-          Building with a balance of{' '}
-          <em>curiosity, precision,</em> and practical problem-solving.
+          Applying knowledge from courses to build something interesting
         </h2>
 
         <div className="stats">
@@ -296,7 +295,7 @@ function Home() {
           </div>
 
           <div>
-            <strong>02</strong>
+            <strong>03</strong>
             <span>
               hands-on builds
               <br />
@@ -311,9 +310,7 @@ function Home() {
           <p className="section-label">FEATURED PROJECT / 01</p>
 
           <h2>
-            Electric guitar,
-            <br />
-            <em>built from scratch.</em>
+            Electric guitar design and build
           </h2>
 
           <p>
@@ -347,8 +344,7 @@ function About() {
 
       <div className="about-top">
         <h1>
-          A mechanical engineer with a{' '}
-          <em>hands-on</em> approach.
+          Senior mechanical engineering student at Virginia Tech
         </h1>
 
         <div className="portrait">
@@ -372,20 +368,6 @@ function About() {
             MECHANICAL
             <br />
             SYSTEMS
-          </span>
-        </div>
-
-        <div className="graphic-card biometrics">
-          <div className="bio-ring">
-            <i />
-            <i />
-            <i />
-          </div>
-
-          <span>
-            BIOMEDICAL
-            <br />
-            FOCUS
           </span>
         </div>
 
@@ -453,9 +435,7 @@ function Projects() {
 
       <div className="project-heading">
         <h1>
-          Projects made
-          <br />
-          <em>to be used.</em>
+          Personal design projects
         </h1>
 
         <p>
@@ -560,9 +540,7 @@ function Resume() {
         </p>
 
         <h1>
-          The short version
-          <br />
-          of <em>how I build.</em>
+          Experience outside of personal projects
         </h1>
 
         <a
